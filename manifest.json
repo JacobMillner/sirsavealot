@@ -1,0 +1,15 @@
+{
+  "name": "Sir Save-a-lot",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Save a shit ton of money",
+  "browser_action": {
+    "default_icon": "test.ico",
+    "default_popup": "Test.html"
+  },
+  "permissions": [
+    "cookies",
+    "tabs",
+    "<all_urls>"
+  ]
+}
