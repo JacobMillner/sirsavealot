@@ -11,5 +11,9 @@
     "cookies",
     "tabs",
     "<all_urls>"
-  ]
+  ],
+  "background": {         
+    "scripts": 
+      ["thirdParty/jquery.min.js", "background.js"]     
+  }
 }
