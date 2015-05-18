@@ -5,15 +5,19 @@
   "description": "Save a shit ton of money",
   "browser_action": {
     "default_icon": "test.ico",
-    "default_popup": "Test.html"
+    "default_popup": "popup.html" //this shows when someone clicks the icon
   },
   "permissions": [
     "cookies",
     "tabs",
     "<all_urls>"
   ],
-  "background": {         
+  "background": {         //loads our scripts active on all websites
     "scripts": 
       ["thirdParty/jquery.min.js", "background.js"]     
-  }
+  },
+  "content_scripts": [     //specific scripts for specific websites
+    {       
+      "matches": ["*://*.amazon.com/*"],
+      "js": ["amazon.js"]     }
 }
