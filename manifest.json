@@ -17,7 +17,9 @@
       ["thirdParty/jquery.min.js", "background.js"]     
   },
   "content_scripts": [     //specific scripts for specific websites
-    {       
-      "matches": ["*://*.amazon.com/*"],
-      "js": ["amazon.js"]     }
+		{       
+		  "matches": ["*://*.amazon.com/*"],
+		  "js": ["amazon.js"]     
+		}
+	]
 }
