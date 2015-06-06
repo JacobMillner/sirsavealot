@@ -19,7 +19,7 @@
   "content_scripts": [     //specific scripts for specific websites
 		{       
 		  "matches": ["*://*.amazon.com/*"],
-		  "js": ["amazon.js"]     
+		  "js": ["amazon.js", "thirdParty/jquery.min.js"]     
 		}
 	]
 }
