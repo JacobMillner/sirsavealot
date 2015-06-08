@@ -13,12 +13,13 @@
     "<all_urls>"
   ],
   "background": {         //loads our scripts active on all websites
-	  "page": "background.html"
+    "scripts": 
+      ["thirdParty/jquery.min.js", "background.js"]     
   },
   "content_scripts": [     //specific scripts for specific websites
-		{
-		  "matches"   : ["<all_urls>"],
-          "js"        : [ "thirdParty/jquery.min.js", "amazon.js"]  
+		{       
+		  "matches": ["*://*.amazon.com/*"],
+		  "js": ["amazon.js", "thirdParty/jquery.min.js"]     
 		}
 	]
 }
