@@ -18,7 +18,7 @@
   "content_scripts": [     //specific scripts for specific websites
 		{       
 		  "matches": ["<all_urls>"], //be careful, these load in order!
-		  "js": ["thirdParty/jquery.min.js", "amazon.js", "startup.js"]
+		  "js": ["thirdParty/jquery.min.js", "websites.js", "startup.js"]
 		}
 	]
 }
