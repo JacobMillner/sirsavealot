@@ -10,7 +10,6 @@ function amazonJQ()
 		buyButton.parent().click(function(){
 			alert("dont buy this!");
 		})
-		buyButton.attr('disabled','disabled');
 	}
 }
 
@@ -23,6 +22,5 @@ function ebayJQ()
 		buyButton.parent().click(function(){
 			alert("dont buy this!");
 		})
-		buyButton.attr('disabled','disabled');
 	}
 }
