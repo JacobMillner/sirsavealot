@@ -8,6 +8,7 @@ function amazonJQ()
 	if(buyButton != null)
 	{
 		buyButton.parent().click(function(){
+			buyButton.attr("disabled","disabled");
 			alert("dont buy this!");
 		})
 	}
