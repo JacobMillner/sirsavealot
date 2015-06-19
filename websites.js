@@ -16,15 +16,3 @@ function amazonJQ()
 		})
 	}
 }
-
-function ebayJQ()
-{
-	debugger;
-	var buyButon = $("#binBtn_btn");
-	if(buyButton != null)
-	{
-		buyButton.parent().click(function(){
-			alert("dont buy this!");
-		})
-	}
-}
