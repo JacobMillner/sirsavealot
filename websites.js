@@ -6,6 +6,8 @@ function amazonJQ()
 	var buyButton = $("#add-to-cart-button");
 	var price = $("#priceblock_ourprice");
 	var oneStarRatingList = $(".a-icon a-icon-star a-star-1 review-rating");
+	var custReviewsLink = $(".a-link-emphasis a-nowrap").attr("href");
+	//var
 	
 	if(buyButton != null)
 	{
