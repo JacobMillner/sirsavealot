@@ -2,11 +2,11 @@
 debugger;
 var hostname = $(location).attr('hostname');
 hostname = hostname.toUpperCase();
-if(hostname == "WWW.AMAZON.COM") //i cant get localCompare working D:
+if(hostname == "WWW.AMAZON.COM") //I cant get localCompare working D:
 {
 		amazonJQ();
 }
-if(hostname == "WWW.EBAY.COM") //i cant get localCompare working D:
+if(hostname == "WWW.EBAY.COM") //I cant get localCompare working D:
 {
 		ebayJQ();
 }
