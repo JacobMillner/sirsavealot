@@ -16,6 +16,7 @@ function amazonJQ()
 		buyButton.parent().click(function(){
 			buyButton.attr("disabled","disabled");
 			alert("dont buy this!");
+			alert("Insert one star rating here");
 		})
 	}
 }
