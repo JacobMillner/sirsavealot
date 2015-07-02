@@ -17,6 +17,8 @@ function amazonJQ()
 			buyButton.attr("disabled","disabled");
 			alert("dont buy this!");
 			alert("Insert one star rating here");
+			alert("Insert math here");
+			alert("Ok now let them buy it.");
 		})
 	}
 }
